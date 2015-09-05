@@ -1,4 +1,5 @@
 What happens when you initialize a repository? Why do you need to do it?
+You are creating a new directory which will show each level of your changes and keep that history for you to re-visit
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The basic Git workflow goes something like this:
@@ -7,12 +8,16 @@ The basic Git workflow goes something like this:
 	You do a commit, which takes the files as they are in the staging area and stores that snapshot permanently to your Git directory.
 
 How can you use the staging area to make sure you have one commit per logical change?
+You can compare commits to see all the changes made
 
-What are some situations when branches would be helpful in keeping your history organized? How would branches help?s
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+If you want to experiment but want to make sure that your original stays in tact, it's a good idea to branch off from the master.
 
 git log --graph --oneline
 How do the diagrams help you visualize the branch structure?
+Shows the relationships between the branches.  And which commits are related.
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A new commit point is created that incorporates both sets of changes from each branch.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?

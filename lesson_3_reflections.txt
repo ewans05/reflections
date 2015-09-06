@@ -14,3 +14,6 @@ You have something to look at or work on if you are not connected to the interne
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Saving files and sending them to others through email or a service like dropbox.  It's less complicated to do but doesn't track changes.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+I may want to make changes in a seperate branch if I'm not certain of the changes and perhaps want to see the effect they will have or to show others and allow them to work on the project.  But still protect the original in case I don't like the new changes.

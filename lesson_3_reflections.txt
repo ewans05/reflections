@@ -11,3 +11,6 @@ Fork copies a repository to your remote that you can add to without disrupting t
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 You have something to look at or work on if you are not connected to the internet. And a base to compare to other repositories to see possible changes.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Saving files and sending them to others through email or a service like dropbox.  It's less complicated to do but doesn't track changes.

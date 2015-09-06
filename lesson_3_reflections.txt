@@ -8,3 +8,6 @@ Describe the differences between forks, clones, and branches. When would you use
 Branch creates a new set of commits in your local repository that veer off from your master.
 Clone makes a copy of a respository that you can edit and add to.
 Fork copies a repository to your remote that you can add to without disrupting the original.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+You have something to look at or work on if you are not connected to the internet. And a base to compare to other repositories to see possible changes.

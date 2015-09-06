@@ -4,3 +4,7 @@ When you are collaborating with others
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 If there are multiple people working on a project, you may not always need their changes for what you are trying to do.  Better to download only what you want to concentrate on
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Branch creates a new set of commits in your local repository that veer off from your master.
+Clone makes a copy of a respository that you can edit and add to.
+Fork copies a repository to your remote that you can add to without disrupting the original.
